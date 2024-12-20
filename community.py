@@ -3,10 +3,6 @@
 
 """A package containing the 'Community' model."""
 
-from dataclasses import dataclass
-from typing import Any
-
-from graphrag.model.named import Named
 
 
 @dataclass
