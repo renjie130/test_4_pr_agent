@@ -15,9 +15,6 @@ from composio_langgraph import Action, App, ComposioToolSet, WorkspaceType
 
 dotenv.load_dotenv()
 
-class Model(str, Enum):
-    CLAUDE = "claude"
-    OPENAI = "openai"
 
 model = Model.OPENAI
 
