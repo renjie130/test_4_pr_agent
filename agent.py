@@ -1,7 +1,3 @@
-import operator
-import os
-import typing as t
-from enum import Enum
 
 import dotenv
 from langchain_aws import ChatBedrock
@@ -19,9 +15,6 @@ from composio_langgraph import Action, App, ComposioToolSet, WorkspaceType
 
 dotenv.load_dotenv()
 
-class Model(str, Enum):
-    CLAUDE = "claude"
-    OPENAI = "openai"
 
 model = Model.OPENAI
 
