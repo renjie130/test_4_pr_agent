@@ -5,8 +5,7 @@ import requests
 from composio import action
 
 
-DIFF_URL = "https://github.com/{owner}/{repo}/pull/{pull_number}.diff"
-PR_URL = "https://api.github.com/repos/{owner}/{repo}/pulls/{pull_number}"
+
 
 
 class DiffFormatter:
